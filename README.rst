@@ -2,7 +2,7 @@
 Database Journal
 ================
 
-.. image:: images/db_icon.png
+.. image:: images/types_of_dbs.png
    :align: center
    :width: 150pt
 
