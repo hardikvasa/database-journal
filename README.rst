@@ -13,8 +13,6 @@ Index:
 
 * `MySQL commands <mysql_commands.rst>`__ 
 * `Code Samples <code-samples/index.rst>`__ 
-   * [MySQL] `Python mysql connector code <code-samples/sample_database_operations.py>`__
-   * [MySQL] `PyMySQL library <code-samples/pymysql_sample.py>`__ 
 * `Interview Questions <interview-questions/index.rst>`__ 
 
 Contributing
