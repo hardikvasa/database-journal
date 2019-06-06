@@ -12,8 +12,9 @@ This repository is a collection of all-things database. It includes some fundame
 Index:
 
 * `MySQL commands <mysql_commands.rst>`__ 
-* `Code Samples <code-samples/index.rst>`__ 
-* `Interview Questions <interview-questions/index.rst>`__ 
+* `Selecting the right database <selecting_right_database.rst>`__ 
+* `Code Samples <code-samples/README.rst>`__ 
+* `Interview Questions <interview-questions/README.rst>`__ 
 
 Contributing
 ============
