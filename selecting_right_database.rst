@@ -4,6 +4,9 @@ Selecting the right database
 
 This section some characteristics and comparison points between different database technologies.
 
+DBMS comparison chart
+---------------------
+
 +-----------------+--------------------+---------------------+---------------------+------------------+---------------+-----------------+--------------------+----------------+-------------------+---------------------------+
 | Property        | Relational DB      | NoSQL DB            | Document DB         | In-memory DB     | Graph DB      | Search DB       | Time-series DB     | Ledger DB      | Queues            | Streams                   |
 +=================+====================+=====================+=====================+==================+===============+=================+====================+================+===================+===========================+
@@ -26,3 +29,8 @@ This section some characteristics and comparison points between different databa
 | Engine(s)       | MySQL, PostgresSQL | Cassandra, DynamoDB | MongoDB, DocumentDB | Redis, Memcached | Neo4j         | Elasticsearch   | InfluxDB           | AWS QLDB       | ActiveMQ, AWS SQS | Apache Kafka, AWS Kinesis |
 +-----------------+--------------------+---------------------+---------------------+------------------+---------------+-----------------+--------------------+----------------+-------------------+---------------------------+
 
+
+Selecting the right database
+----------------------------
+
+Coming soon!
