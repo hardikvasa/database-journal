@@ -39,6 +39,16 @@ A search-engine database is a type of database that is dedicated to the search o
 Ledgers database are special-purpose databases that are typically used to record chain of activities or series of  financial transactions of an application. Blockchain frameworks, such as Hyperledger Fabric and Ethereum, can also be used as a ledger. 
 
 
+**What is the difference between hadoop and SQL DBMS?**
+
+Hadoop is schema on read whereas SQL is schema on write. In SQL, data is stored in logical form whereas in hadoop data is in text blob. Hadoop can scale horizontally across many nodes whereas an SQL based database is vertically scalable.
+
+
+**What is an in-memory database?**
+
+An in-memory database is a nonrelational database which stores the data in-memory (RAM) instead of persisting it on disk. The data is stored in-memory because it provides fast response times to the applications querying the data.  
+
+
 Basics
 ======
 
@@ -67,6 +77,10 @@ Index is a data structure and it can be visualized similar to an index in a book
 A data warehouse is storage of data that is collected from various individual data sources which support analytical and structured querying to take some strategic decision. Efficiently using data warehouse to drive critical decisions is called data warehousing. A data warehouse is designed for analytical queries rather than for transactional queries.
 
 
+**What is the difference between Redis and Memchached?**
+
+Both Memcached and Redis serve as in-memory, key-value data stores. But Memcached in a way provides sub-set of features that Redis provides. Memcached is easy to start with and provides simple key-value cache functionality. On the other hand Redis provides queuing, pub/sub solution as well as sessions. It also provides data persistence and replication. You can store smaller sizes of data 1MB/key in Memcached whereas Redis allows you to store 512MB/key values. Memcached offers multi-threading whereas Redis is single-threaded.
+
 Relational DBMS
 ===============
 
@@ -88,6 +102,20 @@ The 3 Types of Relationships in Database Design:
 * One-to-Many: TableA can have many matching rows in TableB, but a row in TableB can have only one matching row in TableA
 
 * Many-to-Many: A row in TableA can have many matching rows in TableB, and vice versa
+
+
+**What is a primary key?**
+
+A primary key is a special column in a relational database in which all the records are unique and is a non-NULL value. Most database engines offer automatic primary key generation if not provided explicitly, for example auto-increment primary key.
+
+**What is a unique key constrain?**
+
+A Unique key constraint is a restriction defined for that column in the database where each row should be identifiable uniquely (non-repeating values).
+
+
+**What is a foreign key in a database?**
+
+A foreign key is a key in one table which can be mapped to the primary key of another table. Foreign key helps create relationship between two tables. Foreign key is used when we perform JOIN operation to combine data between two or more tables.
 
 
 NoSQL DBMS
