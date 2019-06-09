@@ -12,8 +12,8 @@ This repository is a collection of all-things database. It includes some fundame
 Index:
 
 * `MySQL commands <mysql_commands.rst>`__ 
-* `Selecting the right database <selecting_right_database.rst>`__ 
 * `Code Samples <https://github.com/hardikvasa/database-journal#code-samples>`__ 
+* `Selecting the right database <https://github.com/hardikvasa/database-journal#dbms-comparison-chart>`__ 
 * `Interview Questions <interview-questions/README.rst>`__ 
 
 ============
@@ -79,7 +79,7 @@ This section some characteristics and comparison points between different databa
 Contributing
 ============
 
-Anyone is welcomed to contribute to this script.
+Anyone is welcomed to contribute to this repository.
 If you would like to make a change, open a pull request.
 For issues and discussion visit the
 `Issue Tracker <https://github.com/hardikvasa/database-journal/issues>`__.
