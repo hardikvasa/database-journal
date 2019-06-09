@@ -46,6 +46,36 @@ This section contains sample codes for database operations. For python, there ar
 | Neo4j      | Graph      | Graph database using neo4j-driver     | Python  | `link <neo4j_sample.py>`_                                         | `docs <https://neo4j.com/docs/>`__                                                    |
 +------------+------------+---------------------------------------+---------+-------------------------------------------------------------------+---------------------------------------------------------------------------------------+
 
+
+
+DBMS comparison chart
+=====================
+
+This section some characteristics and comparison points between different database technologies.
+
++-----------------+--------------------+---------------------+---------------------+------------------+---------------+-----------------+--------------------+----------------+-------------------+---------------------------+
+| Property        | Relational DB      | NoSQL DB            | Document DB         | In-memory DB     | Graph DB      | Search DB       | Time-series DB     | Ledger DB      | Queues            | Streams                   |
++=================+====================+=====================+=====================+==================+===============+=================+====================+================+===================+===========================+
+| Type            | Relational         | Non-Relational      | Non-Relational      | Non-Relational   | Relational    | Non-Relational  | Relational         | Non-Relational | Non-Relational    | Non-Relational            |
++-----------------+--------------------+---------------------+---------------------+------------------+---------------+-----------------+--------------------+----------------+-------------------+---------------------------+
+| Data            | Structured         | Un-structured       | Un-structured       | Un-structured    | Un-structured | Semi-structured | Structured         | Chain          | Un-structured     | Un-structured             |
++-----------------+--------------------+---------------------+---------------------+------------------+---------------+-----------------+--------------------+----------------+-------------------+---------------------------+
+| Data format     | Records, tuples    | JSON                | JSON                | JSON             | N/A           | JSON            | JSON               | JSON           | Objects           | Objects                   |
++-----------------+--------------------+---------------------+---------------------+------------------+---------------+-----------------+--------------------+----------------+-------------------+---------------------------+
+| Scalability     | Vertical           | Horizontal          | Horizontal          | Horizontal       | Horizontal    | Horizontal      | Horizontal         | Horizontal     | Horizontal        | Horizontal                |
++-----------------+--------------------+---------------------+---------------------+------------------+---------------+-----------------+--------------------+----------------+-------------------+---------------------------+
+| Record type     | Flat               | Hierarchical        | Hierarchical        | Hierarchical     | Hierarchical  | Hierarchical    | Flat, Hierarchical | Hierarchical   | Objects           | Objects                   |
++-----------------+--------------------+---------------------+---------------------+------------------+---------------+-----------------+--------------------+----------------+-------------------+---------------------------+
+| Applications    | CRM, Finance       | Shopping cart       | Content Management  | Leaderboards     | Social media  | Product catalog | IoT applications   | Cryptocurrency | Queuing tasks     | Weather data              |
++-----------------+--------------------+---------------------+---------------------+------------------+---------------+-----------------+--------------------+----------------+-------------------+---------------------------+
+| Complex queries | Yes                | No                  | No                  | No               | No            | No              | No                 | No             | N/A               | N/A                       |
++-----------------+--------------------+---------------------+---------------------+------------------+---------------+-----------------+--------------------+----------------+-------------------+---------------------------+
+| Property        | ACID               | CAP theorem         | CAP theorem         | CAP theorem      | CAP theorem   | CAP theorem     | ACID               | N/A            | N/A               | N/A                       |
++-----------------+--------------------+---------------------+---------------------+------------------+---------------+-----------------+--------------------+----------------+-------------------+---------------------------+
+| Engine(s)       | MySQL, PostgresSQL | Cassandra, DynamoDB | MongoDB, DocumentDB | Redis, Memcached | Neo4j         | Elasticsearch   | InfluxDB           | AWS QLDB       | ActiveMQ, AWS SQS | Apache Kafka, AWS Kinesis |
++-----------------+--------------------+---------------------+---------------------+------------------+---------------+-----------------+--------------------+----------------+-------------------+---------------------------+
+
+
 Contributing
 ============
 
