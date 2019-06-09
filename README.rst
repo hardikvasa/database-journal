@@ -13,8 +13,38 @@ Index:
 
 * `MySQL commands <mysql_commands.rst>`__ 
 * `Selecting the right database <selecting_right_database.rst>`__ 
-* `Code Samples <code-samples/README.rst>`__ 
+* `Code Samples <https://github.com/hardikvasa/database-journal#code-samples>`__ 
 * `Interview Questions <interview-questions/README.rst>`__ 
+
+============
+Code Samples
+============
+
+This section contains sample codes for database operations. For python, there are several options like `mysql-connector`, `pymysql`, `MySQLdb`, `SqlAlchemy`, etc.
+
++------------+------------+---------------------------------------+---------+-------------------------------------------------------------------+---------------------------------------------------------------------------------------+
+| DBMS       | Model      | Description                           | Runtime | Sample Code                                                       | Docs                                                                                  |
++============+============+=======================================+=========+===================================================================+=======================================================================================+
+| MySQL      | Relational | Python mysql connector code sample    | Python  | `link <mysql_connector_sample.py>`__                              | `docs <https://dev.mysql.com/doc/>`__                                                 |
++------------+------------+---------------------------------------+---------+-------------------------------------------------------------------+---------------------------------------------------------------------------------------+
+| MySQL      | Relational | PyMySQL code sample                   | Python  | `link <pymysql_sample.py>`__                                      | `docs <https://dev.mysql.com/doc/>`__                                                 |
++------------+------------+---------------------------------------+---------+-------------------------------------------------------------------+---------------------------------------------------------------------------------------+
+| PostgreSQL | Relational | PostgreSQL using psycopg2 code sample | Python  | `link <postgresql.py>`__                                          | `docs <https://www.postgresql.org/docs/>`__                                           |
++------------+------------+---------------------------------------+---------+-------------------------------------------------------------------+---------------------------------------------------------------------------------------+
+| MongoDB    | Document   | MongoDB NoSQL database code sample    | Python  | `link <mongo.py>`__                                               | `docs <https://docs.mongodb.com/>`__                                                  |
++------------+------------+---------------------------------------+---------+-------------------------------------------------------------------+---------------------------------------------------------------------------------------+
+| SQS        | Queue      | AWS Simple Queue Service operations   | Python  | `link <sqs.py>`__                                                 | `docs <https://docs.aws.amazon.com/sqs/index.html>`__                                 |
++------------+------------+---------------------------------------+---------+-------------------------------------------------------------------+---------------------------------------------------------------------------------------+
+| ActiveMQ   | Queue      | MQ Producer and MQ Consumer           | Python  | `link <mq_producer.py>`_, `link <mq_consumer.py>`_                | `docs <https://activemq.apache.org/getting-started.html>`__                           |
++------------+------------+---------------------------------------+---------+-------------------------------------------------------------------+---------------------------------------------------------------------------------------+
+| OracleDB   | Relational | OracleDB sample code                  | Python  | `link <oracledb.py>`_                                             | `docs <https://cx-oracle.readthedocs.io/en/latest/index.html>`__                      |
++------------+------------+---------------------------------------+---------+-------------------------------------------------------------------+---------------------------------------------------------------------------------------+
+| Kinesis    | Stream     | AWS Kinesis stream sample code.       | Python  | `link <kinesis_producer.py>`_, `link <kinesis_consumer.py>`_      | `docs <https://docs.aws.amazon.com/streams/latest/dev/introduction.html>`__           |
++------------+------------+---------------------------------------+---------+-------------------------------------------------------------------+---------------------------------------------------------------------------------------+
+| Redis      | In-memory  | Redis code sample in python.          | Python  | `link <redis_python.py>`_                                         | `docs <https://redis.io/documentation>`__                                             |
++------------+------------+---------------------------------------+---------+-------------------------------------------------------------------+---------------------------------------------------------------------------------------+
+| Neo4j      | Graph      | Graph database using neo4j-driver     | Python  | `link <neo4j_sample.py>`_                                         | `docs <https://neo4j.com/docs/>`__                                                    |
++------------+------------+---------------------------------------+---------+-------------------------------------------------------------------+---------------------------------------------------------------------------------------+
 
 Contributing
 ============
