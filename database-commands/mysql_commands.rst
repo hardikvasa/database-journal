@@ -6,6 +6,7 @@ Sample database can be found in the `sql` directory of this repository. You can 
 
 
 Show all the existing databases
+
 .. code-block:: sql
    
    SHOW DATABASES;

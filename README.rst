@@ -11,12 +11,24 @@ This repository is a collection of all-things database. It includes some fundame
 
 Index:
 
-* `MySQL commands <mysql_commands.rst>`__ 
+* `MySQL commands <https://github.com/hardikvasa/database-journal#database-commands>`__ 
 * `Code Samples <https://github.com/hardikvasa/database-journal#code-samples>`__ 
 * `Selecting the right database <https://github.com/hardikvasa/database-journal#dbms-comparison-chart>`__ 
 * `Interview Questions <interview-questions/README.rst>`__ 
 
-============
+
+Database commands
+=================
+
++---------------+------------+---------------------------------------+---------+-----------------------------------------------------------------------------------------------------+
+| DBMS          | Model      | Description                           | Runtime | Link                                                                                                | 
++===============+============+=======================================+=========+=====================================================================================================+
+| MySQL         | Relational | Mysql basic commands                  | Shell   | `link <database-commands/mysql_commands.rst>`__                                                   |
++---------------+------------+---------------------------------------+---------+-----------------------------------------------------------------------------------------------------+
+| MongoDB       | Document   | MongoDB basic commands                | Shell   | `link <database-commands/mongodb.rst>`__                                                   |
++---------------+------------+---------------------------------------+---------+-----------------------------------------------------------------------------------------------------+
+
+
 Code Samples
 ============
 
