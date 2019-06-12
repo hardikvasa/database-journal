@@ -11,7 +11,7 @@ This repository is a collection of all-things database. It includes some fundame
 
 Index:
 
-* `MySQL commands <https://github.com/hardikvasa/database-journal#database-commands>`__ 
+* `Database commands <https://github.com/hardikvasa/database-journal#database-commands>`__ 
 * `Code Samples <https://github.com/hardikvasa/database-journal#code-samples>`__ 
 * `Selecting the right database <https://github.com/hardikvasa/database-journal#dbms-comparison-chart>`__ 
 * `Interview Questions <interview-questions/README.rst>`__ 
@@ -63,6 +63,8 @@ This section contains sample codes for database operations. For python, there ar
 +---------------+------------+---------------------------------------+---------+-----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+
 | ElasticSearch | Search     | ElasticSearch basic operations        | Python  | `link <code-samples/elasticsearch_sample.py>`_                                                      | `docs <https://www.elastic.co/guide/index.html>`__                                    |
 +---------------+------------+---------------------------------------+---------+-----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+
+| AWS Neptune   | Graph      | Connecting to AWS Neptune with Gremlin| Python  | `link <code-samples/aws_neptune.py>`_                                                               | `docs <http://tinkerpop.apache.org/docs/current/reference/>`__                        |
++---------------+------------+---------------------------------------+---------+-----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+
 
 
 
@@ -97,10 +99,8 @@ This section some characteristics and comparison points between different databa
 Contributing
 ============
 
-Anyone is welcomed to contribute to this repository.
-If you would like to make a change, open a pull request.
-For issues and discussion visit the
-`Issue Tracker <https://github.com/hardikvasa/database-journal/issues>`__.
+Anyone is welcomed to contribute to this repository. If you would like to make a change, open a pull request.
+For issues and discussion visit the `Issue Tracker <https://github.com/hardikvasa/database-journal/issues>`__.
 
 Disclaimer
 ==========
