@@ -12,9 +12,11 @@ graph = Graph()
 #creating connection with the remote
 remoteConn = DriverRemoteConnection('wss://<endpoint>:8182/gremlin','g')
 g = graph.traversal().withRemote(DriverRemoteConnection('wss://<endpoint>:8182/gremlin','g'))
+print('Connection created.')
 
 #clearing out all the vertices to start fresh
 g.V().drop().iterate()
+print('Deleting everything and starting clean.')
 
 #Adding some vertices (nodes)
 gerald = g.addV('person').property('age','81').property('first_name','Gerald').property('stays_in','Portland').next()
@@ -22,6 +24,7 @@ edith = g.addV('person').property('age','78').property('first_name','Edith').pro
 peter = g.addV('person').property('age','52').property('first_name','Shane').property('stays_in','Seattle').next()
 mary = g.addV('person').property('age','50').property('first_name','Mary').property('stays_in','Seattle').next()
 betty = g.addV('person').property('age','19').property('first_name','Betty').property('stays_in','Chicago').next()
+print('Added some vertices (nodes).')
 
 #Adding relationships (edges)
 edge = g.V().has('first_name', 'Gerald').addE('husband_of').to(g.V().has('first_name', 'Edith')).property('married_since','1947').next()
@@ -39,22 +42,27 @@ edge = g.V().has('first_name', 'Betty').addE('daughter_of').to(g.V().has('first_
 
 
 #print out all the node's first names
+print('\n Printing first name from all nodes:')
 print(g.V().first_name.toList()) 
 
 #print out all the properties of person whose's first name is Shane
+print('\n Printing all properties of person whose first name is Shane:')
 print(g.V().has('person','first_name','Shane').valueMap().next()) 
 
 #traversing the graph starting with Betty to then Shane to then Edith
+print('\n Finding Betty and then looking up her parents:')
 print(g.V().has('first_name', 'Betty').out('daughter_of').out('son_of').valueMap().toList())
-print("\n\n\n")
 
 #Print out all the nodes
+print('\n Printing out all the nodes:')
 people = g.V().valueMap().toList()
 print(people)
 
 #Print out all the connections (edges)
+print('\n Print out all the connections (edges):')
 connections = g.E().valueMap().toList()
 print(connections)
 
 #Closing the connection
 remoteConn.close()
+print('Connection closed!')
