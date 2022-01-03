@@ -104,7 +104,7 @@ Contributing
 ============
 
 Anyone is welcomed to contribute to this repository. If you would like to make a change, open a pull request.
-For issues and discussion visit the `Issue Tracker <https://github.com/hardikvasa/database-journal/issues>`__.
+For issues and discussion visit the `Issue Tracker <https://github.com/hardikvasa/database-journal/issues>`__. Additional articles and workshops can be found on `website <https://cloudbru.com/>`__.
 
 Disclaimer
 ==========
